@@ -1,0 +1,19 @@
+{
+  "name": "vlcback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "origin https://github.com/Lerghin/vlcproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "vlc-client": "^1.1.1"
+  }
+}
