@@ -1,7 +1,14 @@
 import { Router } from "express";
+import channelRouter from "./channelRouter.js";  // Ensure path is correct
 
-const indexeRouter = Router();
+const indexRouter = Router();
 
-response.get('/', (request,response,next) => {
-    
-response.send('Welcome to mi server /api');})
+
+indexRouter.get('/', (request, response, next) => {
+    response.send('Welcome to my server /api');
+});
+
+
+indexRouter.use('/channels', channelRouter);
+
+export default indexRouter;

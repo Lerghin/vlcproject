@@ -2,10 +2,8 @@ import { Schema, model } from "mongoose";
 
 const channelSchema= Schema({
    url: {type: String, required: true},
-   status: { type: String, default:'active'},
-   lastChecked: { type: Date, default: Date.now },
-
-
+   name: { type: String, required: true},
+   
 },
 {
     timestamps: true,
