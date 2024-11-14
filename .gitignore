@@ -11,10 +11,4 @@ node_modules/
 .vscode/
 .idea/
 
-# Ignorar carpetas de construcción (si existiera alguna, como 'dist' o 'build')
-dist/
-build/
 
-# Ignorar archivos del sistema (MacOS, Windows)
-.DS_Store
-Thumbs.db

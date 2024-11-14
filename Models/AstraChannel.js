@@ -1,12 +1,12 @@
 import { Schema, model } from "mongoose";
 
-const channelSchema= Schema({
+const astraChannelSchema= Schema({
    url: {type: String, required: true},
    name: { type: String, required: true},
-   pentaNummber: { type: Number, required: true},
+   
 },
 {
     timestamps: true,
 })
-const Channel=model('channel',channelSchema);
-export default Channel;
+const AstraChannel=model('astraChannel',astraChannelSchema);
+export default AstraChannel;

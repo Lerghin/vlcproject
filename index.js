@@ -27,11 +27,11 @@ mongoose.connect(process.env.MONGO_URI, {
   console.error('Error al conectar a MongoDB:', error.message);
 });
 
-app.use('/api', (req, res, next) => {
+/*app.use('/api', (req, res, next) => {
     console.log("You have made a request:", req.url, 'Time:', new Date().toLocaleString());
     next();
 });
-
+*/
 app.use('/api', indexRouter); 
 
 
